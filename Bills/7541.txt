@@ -1,0 +1,24 @@
+		WELCOME  TO  THE  SHOP
+
+ INVOICE No. :  7541
+ Customer Name :  Abhi
+ Phone Number:  9123456789
+ Customer Email :  abhikritimoti@outlook.com
+=====================================================
+  Products 			QTY		Price
+=====================================================
+
+ Pepe			 2		6998
+ Haier			 1		28999
+ Morphy Richards			 1		11599
+ Samsung			 2		23980
+ GoPro			 3		143997
+ Charger			 5		4995
+ Tripod			 2		4398
+ DJI			 1		32000
+ Denim			 2		11598
+=====================================================
+  Sub Amount:					Rs.414589.00
+ 0 Tax Amount:					Rs.4087.90
+  Total Amount:					Rs.418676.90
+=====================================================

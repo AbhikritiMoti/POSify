@@ -1,0 +1,19 @@
+		WELCOME  TO  THE  SHOP
+
+ INVOICE No. :  2570
+ Customer Name :  
+ Phone Number:  
+ Customer Email :  
+=====================================================
+  Products 			QTY		Price
+=====================================================
+
+ Armani			 1		3349
+ Armani			 1		3349
+ Armani			 1		3349
+
+=====================================================
+  Sub Amount:					Rs.10047.00
+  Tax Amount:					Rs.66.98
+  Total Amount:					Rs.10113.98
+=====================================================

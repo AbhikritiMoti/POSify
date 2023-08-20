@@ -1,0 +1,19 @@
+		WELCOME  TO  THE  SHOP
+
+ INVOICE No. :  8261
+ Customer Name :  avbh
+ Phone Number:  213
+ Customer Email :  adsd
+=====================================================
+  Products 			QTY		Price
+=====================================================
+
+ Pepe			 7		24493
+ Pepe			 7		24493
+ Pepe			 7		24493
+
+=====================================================
+  Sub Amount:					Rs.73479.00
+  Tax Amount:					Rs.699.80
+  Total Amount:					Rs.74178.80
+=====================================================

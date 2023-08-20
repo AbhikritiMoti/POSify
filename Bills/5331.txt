@@ -1,0 +1,19 @@
+		WELCOME  TO  THE  SHOP
+
+ INVOICE No. :  5331
+ Customer Name :  asd
+ Phone Number:  ewqe
+ Customer Email :  efsdfsdf
+=====================================================
+  Products 			QTY		Price
+=====================================================
+
+ Puffer			 1		6199
+ Puffer			 1		6199
+ Puffer			 2		12398
+
+=====================================================
+  Sub Amount:					Rs.24796.00
+  Tax Amount:					Rs.185.97
+  Total Amount:					Rs.24981.97
+=====================================================

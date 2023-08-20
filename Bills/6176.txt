@@ -1,0 +1,18 @@
+		WELCOME  TO  THE  SHOP
+
+ INVOICE No. :  6176
+ Customer Name :  abhi
+ Phone Number:  213
+ Customer Email :  asa
+=====================================================
+  Products 			QTY		Price
+=====================================================
+
+ Killer			 1		2999
+ Killer			 1		2999
+
+=====================================================
+  Sub Amount:					Rs.8997.00
+  Tax Amount:					Rs.59.98
+  Total Amount:					Rs.9056.98
+=====================================================
