@@ -1,1 +1,1 @@
-# POSify: Simplifying Billing and Invoicing
+# POSify: Effortless Purchasing and Invoice Management
