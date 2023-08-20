@@ -1,14 +1,12 @@
 from tkinter import *
 from tkinter import ttk
-from tkinter import PhotoImage
 import winsound
 from PIL import Image, ImageTk,ImageFilter
 import os, random
 import tempfile
 from tkinter import messagebox
-from time import strftime
 import mysql.connector
-import jarvis
+import text_to_speech
 from time import strftime
 
 
@@ -100,7 +98,7 @@ class The_Billing_Software:
         self.price_Tripod = 2199
 
         # header1
-        img1 = Image.open("2.jpg")
+        img1 = Image.open("resource1.jpg")
         img1 = img1.resize((500, 130), Image.LANCZOS)
         self.h_img = ImageTk.PhotoImage(img1)
 
@@ -108,7 +106,7 @@ class The_Billing_Software:
         lbl_img1.place(x=0, y=0, width=500, height=130)
 
         # header2
-        img2 = Image.open("7.jpg")
+        img2 = Image.open("resource4.jpg")
         img2 = img2.resize((500, 130), Image.LANCZOS)
         self.h_img2 = ImageTk.PhotoImage(img2)
 
@@ -116,7 +114,7 @@ class The_Billing_Software:
         lbl_img2.place(x=500, y=0, width=500, height=130)
 
         # header3
-        img3 = Image.open("6.jpg")
+        img3 = Image.open("resource3.jpg")
         img3 = img3.resize((530, 130), Image.LANCZOS)
         self.h_img3 = ImageTk.PhotoImage(img3)
 
@@ -124,18 +122,18 @@ class The_Billing_Software:
         lbl_img3.place(x=1000, y=0, width=530, height=130)
 
         # title
-        lbl_title1 = Label(self.root, text="The Billing Software", font=("times new roman", 30, "bold"), cursor="plus",
-                           bg="#EFEFEF", fg="#0033cc")
-        lbl_title1.place(x=10, y=130, width=1530, height=45)
+        lbl_title1 = Label(self.root, text="POSify: Effortless Purchasing and Invoice Management", font=("times new roman", 22, "bold"), cursor="plus",
+                           bg="#EFEFEF", fg="#0033cc",relief="solid", bd=1)
+        lbl_title1.place(x=10, y=130, width=1508, height=45)
 
         # clock
         def time():
-            string = strftime('%a, %H:%M:%S %p')
+            string = strftime('%a, %H:%M:%S')
             lbl.config(text=string)
             lbl.after(1000, time)
 
-        lbl = Label(lbl_title1, font=('times new roman', 15, 'bold'), background='#EFEFEF', foreground='#0033cc')
-        lbl.place(x=5, y=(0), width=170, height=45)
+        lbl = Label(lbl_title1, font=('times new roman', 16, 'bold'), background='#EFEFEF', foreground='#0033cc')
+        lbl.place(x=5, y=(0), width=170, height=40)
         time()
 
 
@@ -317,7 +315,7 @@ class The_Billing_Software:
         self.fetch_data()
 
         # MiddleImage
-        img_b = Image.open("4.jpg")
+        img_b = Image.open("resource2.jpg")
         img_b = img_b.resize((490, 340), Image.LANCZOS)
         self.photoimg_b = ImageTk.PhotoImage(img_b)
 
@@ -480,7 +478,7 @@ class The_Billing_Software:
             BtnInfo.config(background='#0055ff', foreground='white', font=("arial", 15, "bold"))
 
 
-        BtnInfo = Button(Btn_Frame, cursor="hand2",command = jarvis.wishMe, width=12, height=2, text="Info",
+        BtnInfo = Button(Btn_Frame, cursor="hand2",command = text_to_speech.wishMe, width=12, height=2, text="Info",
                          font=("arial", 15, "bold"), bg="#0055ff", fg="white")
         BtnInfo.grid(row=0, column=6)
         BtnInfo.bind('<Enter>', on_enter)
